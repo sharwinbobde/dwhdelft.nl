@@ -51,4 +51,8 @@ export default {
       heading: 'The form has been submitted successfully',
     },
   },
+  months: {
+    2: 'February',
+    10: 'November',
+  }
 }

@@ -208,7 +208,7 @@ const { data: events } = await useAsyncData('events', async () => {
           class="w-48 p-4 m-4 bg-brand-900 rounded-lg shadow-lg space-y-2"
         >
           <div class="flex justify-center">
-            {{ ''.concat(event.date.getDate(), ' ', t(`months.${event.date.getMonth()}`)) }}
+            {{ ''.concat(event.date.getDate(), ' ', $t(`months.${event.date.getMonth()}`)) }}
           </div>
           <div class="flex justify-center">
             {{ event.eventName }}
